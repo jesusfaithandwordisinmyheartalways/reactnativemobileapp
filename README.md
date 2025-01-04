@@ -19,6 +19,9 @@ SCREENSHOTS:
 
 
 
+Linedin Video:
+
+https://www.linkedin.com/posts/andrew-johnson-64632199_react-native-mobile-app-university-start-activity-7281366397417373699-37BP?utm_source=share&utm_medium=member_desktop
 
 Contact: 
 Andrew Johnson
