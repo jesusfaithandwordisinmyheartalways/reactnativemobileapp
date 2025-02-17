@@ -3,7 +3,7 @@
 
 
 import React, { useRef, useEffect } from "react";
-import { View, Text, Animated, StyleSheet } from "react-native";
+import { View, Text, Animated, StyleSheet, SafeAreaView } from "react-native";
 import graduation_cap from "../images/Graduation cap.png"; // Update the path to the correct location of your image
 
 
@@ -35,7 +35,8 @@ const Header = () => {
   return (
 
     
-    <View style={headerStyle.container}>
+   <SafeAreaView style={headerStyle.safeContainer}>
+     <View style={headerStyle.container}>
     <View style={headerStyle.wrapper}>
       <Animated.Image
         source={graduation_cap}
@@ -49,6 +50,7 @@ const Header = () => {
       </Text>
     </View>
   </View>
+   </SafeAreaView>
 
 
 
@@ -60,11 +62,16 @@ const Header = () => {
 
 
 const headerStyle = StyleSheet.create({
+  safeContainer: {
+    width: "100%",
+  },
   container: {
-    backgroundColor: "#f8f9fa",
-    padding: 16,
+    width:'100%',
+    padding: 15,
     alignItems: "center",
     justifyContent: "center",
+    top: '0'
+   
   },
   wrapper: {
     flexDirection: "row",
