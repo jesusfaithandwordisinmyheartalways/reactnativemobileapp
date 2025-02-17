@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.d9577403.js",
+    "main.js": "/static/js/main.1c9a6ffe.js",
     "static/js/642.79610344.js": "/static/js/642.79610344.js",
     "static/media/College students Financial.png": "/static/media/College students Financial.1c457a8011151ea718ce.png",
     "static/media/College students climate change.png": "/static/media/College students climate change.5beeaac9742d7580153e.png",
@@ -33,11 +33,11 @@
     "favicon-16.png": "/favicon-16.png",
     "manifest.json": "/manifest.json",
     "serve.json": "/serve.json",
-    "main.d9577403.js.map": "/static/js/main.d9577403.js.map",
+    "main.1c9a6ffe.js.map": "/static/js/main.1c9a6ffe.js.map",
     "642.79610344.js.map": "/static/js/642.79610344.js.map"
   },
   "entrypoints": [
     "static/js/642.79610344.js",
-    "static/js/main.d9577403.js"
+    "static/js/main.1c9a6ffe.js"
   ]
 }
